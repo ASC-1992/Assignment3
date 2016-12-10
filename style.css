@@ -1,0 +1,88 @@
+#body {
+    margin: 0;
+}
+
+#inUserName {
+    height: 25px;
+    width: 45vw;
+    float right;
+    display: block;
+    margin: 1%;
+    text-align: center;
+}
+
+#inImage {
+    height: 25px;
+    width: 45vw;
+    float: left;
+    display: inline-block;
+    margin: 1%;
+    text-align: center;
+}
+
+#inMovie {
+    height: 25px;
+    width: 45vw;
+    float: right;
+    display: inline-block;
+    margin: 1%;
+    text-align: center;
+}
+
+#inComment {
+    height: 25px;
+    width: 80vw;
+    margin: 1%;
+    text-align: center;
+    
+}
+
+#Submit-But {
+    display: block;
+    margin: 1%;
+    visibility: hidden;
+}
+
+#sub_err {
+    color: red;
+}
+
+#bot {
+    width: 70vw;
+    height: 20vh;
+    position: absolute;
+    left:10vw;
+    background-color: grey;
+    visibility: hidden;
+    text-align: center;
+    padding: 5vw;   
+    border-radius: 5px;
+}
+
+#usrName {
+    position:absolute;
+    bottom:-2.5vh;
+    right:-5vw;
+    width:10vw;
+    height:5vh;
+    text-align: center;
+    border-radius: 5px;
+    background-color: deepskyblue;
+}
+
+#usrImg {
+    position:absolute;
+    top:-5vw;
+    left:-4vw;
+    width:8vw;
+    height:auto;
+    border-radius: 5px;
+}
+
+#moviePoster {
+    position:absolute;
+    top:-5vw;
+    right:-4vw;
+    width:8vw;
+    height:auto;
+}
